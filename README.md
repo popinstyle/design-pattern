@@ -10,4 +10,8 @@
 
 6.var x = param && param.skill || "保密"
 
-    若存在param这个参数,并且param拥有skill属性，就把这个属性赋值给this的skill属性，否则江永默认值"保密";
+    若存在param这个参数,并且param拥有skill属性，就把这个属性赋值给this的skill属性，否则为默认值"保密";
+    
+7.单例模式:独立开发，每个人创建一个自己的命名空间，需要的时候调用某个命名空间的方法或者属性。如:baidu.a.getName()
+
+8.
